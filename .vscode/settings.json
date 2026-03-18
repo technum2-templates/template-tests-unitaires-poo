@@ -4,6 +4,7 @@
     },
     "chat.disableAIFeatures": true,
     "editor.indentSize": "tabSize",
+    "editor.inlayHints.enabled": "off",
     "editor.tabSize": 4,
     "editor.guides.bracketPairs": true,
     "editor.insertSpaces": true,
@@ -71,8 +72,10 @@
         "**/.DS_Store": true,
         "**/.noai": true,
         "**/.python-version": true,
+        "**/.pytest_cache": true,
         "**/.venv": true,
         "**/.vscode": true,
+        "**/__pycache__": true,
         "**/pyproject.toml": true,
         "**/Thumbs.db": true,
         "**/uv.lock": true
